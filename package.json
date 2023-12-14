@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "shopping application backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon",
-    "start": "node",
-    "format": "",
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "start": "node -r dotenv/config src/index.js",
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "shophub"
   ],
-  "author": "sumit negi",
+  "author": "Sumit Negi",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.6",
