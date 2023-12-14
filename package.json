@@ -1,0 +1,27 @@
+{
+  "name": "shophub",
+  "version": "1.0.0",
+  "description": "shopping application backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node",
+    "format": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shophub"
+  ],
+  "author": "sumit negi",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
